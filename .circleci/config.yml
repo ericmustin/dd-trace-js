@@ -631,7 +631,7 @@ jobs:
 
   slim-prebuilt:
     docker:
-      - image: node:10-slim
+      - image: node:8.9.1-slim
     working_directory: ~/dd-trace-js
     resource_class: small
     steps:
