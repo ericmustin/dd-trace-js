@@ -30,6 +30,7 @@
       ["OS == 'linux'", {
         "cflags": [
           "-std=c++11",
+          "-static",
           "-Wall",
           "-Werror"
         ]
